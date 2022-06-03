@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Semana1/Dia3</title>
+    </head>
+    <body>
+        <!-- la etiquera que sirve para poder crear un link en nuestra pagina es <a><a/> -->
+        <img src="./Images/wallguy.jpg" alt="imagen">
+        <!-- si queremos que la pagina se  abra en una nueva ventana debemos usar el atributo target="_blank" -->
+        <a href="https://www.youtube.com/" target="_blank">Link a yt</a>
+
+        <a href="https://www.google.com/">
+            <img src="https://blog.hubspot.com/hubfs/image8-2.jpg" alt="logo de google" width="400">
+        </a>
+
+        <a href="https://www.facebook.com/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png" alt="logo de fb" width="400">
+        </a>
+
+        <div>
+            <video controls autoplay muted width="400">
+                <source src="./videos/video.mp4">
+            </video>
+        </div>
+
+        <div>
+            <!-- un boton a diferencia de un hyperlink no redirecciona a 
+                otra pagina, el proposito del boton es hacer una accion
+                enviar datos, validar formularios abrir modale -->
+            <!-- sepan que unboton trabaja sobre evento
+            click este evento para poder usarlo en html debemos llamarlo
+            de la siguiente manera: onclick="" -->
+
+            <button onclick="console.log('hola desde el boton')">
+                Imprimir algo
+            </button>
+        </div>
+    </body>
+</html>
