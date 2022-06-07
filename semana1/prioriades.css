@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    color: white;
+    background-color: darkred;
+    text-align: center;
+}
+
+td {
+    color: white;
+    background-color: rgba(178, 34, 34, 0.753);  
+}
+
+.number {
+    text-align: center;
+    font-weight: bold;
+}

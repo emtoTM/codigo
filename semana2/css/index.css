@@ -3,7 +3,7 @@ h1{
 }
 
 .parrafo{
-    font-family: "Dank Mono", monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     /* Font-weight usa escala de 100 a 900 
     bold=700    bolder=900*/
@@ -17,4 +17,53 @@ h1{
     /* none invalida todas las propiedades en text-decoration */
     text-decoration: none;
     color: rgb(17, 255, 108);
+}
+
+ul {
+    background-color: gray;
+}
+
+.span1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+.span2 {
+    text-decoration: overline;
+}
+
+.span3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.span4 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.span5 {
+    text-decoration: overline;
+    text-decoration-color: gray;
+    background-color: green
+}
+.span6{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: red;
+    background-color: cyan;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-family: "play";
+ }
+
+.parrafo2 {
+    font-family: "play";
+}
+
+ /* font-family puede ser el que se quiera / lo ideal es poner la que viene */
+@font-face {
+    font-family: "play";
+    src: url(../fonts/Play-Regular.ttf);
 }
