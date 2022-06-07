@@ -1,0 +1,20 @@
+h1{
+    font-family: apple-system;
+}
+
+.parrafo{
+    font-family: "Dank Mono", monospace;
+    font-size: 50px;
+    /* Font-weight usa escala de 100 a 900 
+    bold=700    bolder=900*/
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.link-a {
+    font-size: 32px;
+    font-family: monospace;
+    /* none invalida todas las propiedades en text-decoration */
+    text-decoration: none;
+    color: rgb(17, 255, 108);
+}
